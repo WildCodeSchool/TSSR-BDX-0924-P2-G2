@@ -63,8 +63,9 @@ else
         echo " Choice 3 : Return to the start menu."
         read -p "Your choice : " typeUser
         if [ $typeUser -gt 3 ]; then
-            echo "[WARNING] You need to choose between the differents choice proposed."
-            echo "The script will now reboot."
+            echo "[WARNING] Vous devez choisir l'une des options demandés."
+            echo "Le script va donc redémarrer dans 5 secondes."
+            sleep 5
             clear
             bash ./scriptBash.sh
         else
@@ -79,10 +80,11 @@ else
                 echo " Choice 4 : Return to the start menu."
                 read -p "Your choice : " actionUser
                     if [ $actionUser -gt 4 ]; then
-                            echo "[WARNING] You need to choose between the differents choice proposed."
-                            echo "The script will now reboot."
-                            clear
-                            bash ./scriptBash.sh
+                        echo "[WARNING] Vous devez choisir l'une des options demandés."
+                        echo "Le script va donc redémarrer dans 5 secondes."
+                        sleep 5
+                        clear
+                        bash ./scriptBash.sh
                     else
                         case $actionUser in
                         1)
@@ -95,7 +97,8 @@ else
                         modifyUser
                         ;;
                         4)
-                        echo "You choose to return to the start menu."
+                        echo "Vous avez choisi de revenir au Start Menu."
+                        sleep 5
                         clear
                         bash ./scriptBash.sh
                         ;;
@@ -111,10 +114,11 @@ else
                 echo " Choice 3 : Return to the start menu."
                 read -p "Your choice : " informationUser
                     if [ $informationUser -gt 3 ]; then
-                            echo "[WARNING] You need to choose between the differents choice proposed."
-                            echo "The script will now reboot."
-                            clear
-                            bash ./scriptBash.sh
+                        echo "[WARNING] Vous devez choisir l'une des options demandés."
+                        echo "Le script va donc redémarrer dans 5 secondes."
+                        sleep 5
+                        clear
+                        bash ./scriptBash.sh
                     else
                         case $informationUser in
                         1)
@@ -124,7 +128,8 @@ else
                         existUser
                         ;;
                         3)
-                        echo "You choose to return to the start menu."
+                        echo "Vous avez choisi de revenir au Start Menu."
+                        sleep 5
                         clear
                         bash ./scriptBash.sh
                         ;;
@@ -132,7 +137,8 @@ else
                     fi
                 ;;
                 3)
-                echo "You choose to return to the start menu."
+                echo "Vous avez choisi de revenir au Start Menu."
+                sleep 5
                 clear
                 bash ./scriptBash.sh
                 ;;
@@ -150,8 +156,9 @@ else
         echo " Choice 3 : Return to the start menu."
         read -p "Your choice : " typeComputer
         if [ $typeComputer -gt 3 ]; then
-            echo "[WARNING] You need to choose between the differents choice proposed."
-            echo "The script will now reboot."
+            echo "[WARNING] Vous devez choisir l'une des options demandés."
+            echo "Le script va donc redémarrer dans 5 secondes."
+            sleep 5
             clear
             bash ./scriptBash.sh
         else
@@ -164,8 +171,9 @@ else
             echo " Choice 3 : Return to the start menu."
             read -p "Your choice : " actionComputer
             if [ $actionComputer -gt 3 ]; then
-                echo "[WARNING] You need to choose between the differents choice proposed."
-                echo "The script will now reboot."
+                echo "[WARNING] Vous devez choisir l'une des options demandés."
+                echo "Le script va donc redémarrer dans 5 secondes."
+                sleep 5
                 clear
                 bash ./scriptBash.sh
             else
@@ -177,7 +185,8 @@ else
                 rebootPC
                 ;;
                 3)
-                echo "You choose to return to the start menu."
+                echo "Vous avez choisi de revenir au Start Menu."
+                sleep 5
                 clear
                 bash ./scriptBash.sh
                 ;;
@@ -192,8 +201,9 @@ else
             echo " Choice 3 : Return to the start menu."
             read -p "Your choice : " informationComputer
             if [ $informationComputer -gt 3 ]; then
-                echo "[WARNING] You need to choose between the differents choice proposed."
-                echo "The script will now reboot."
+                echo "[WARNING] Vous devez choisir l'une des options demandés."
+                echo "Le script va donc redémarrer dans 5 secondes."
+                sleep 5
                 clear
                 bash ./scriptBash.sh
             else
@@ -205,7 +215,8 @@ else
                 uptimePC
                 ;;
                 3)
-                echo "You choose to return to the start menu."
+                echo "Vous avez choisi de revenir au Start Menu."
+                sleep 5
                 clear
                 bash ./scriptBash.sh
                 ;;
@@ -213,7 +224,8 @@ else
             fi
             ;;
             3)
-            echo "You choose to return to the start menu."
+            echo "Vous avez choisi de revenir au Start Menu."
+            sleep 5
             clear
             bash ./scriptBash.sh
             ;;
@@ -222,7 +234,8 @@ else
         ;;
 
         3)
-        echo "You choose to exit the menu."
+        echo "Vous avez choisi de sortir du menu."
+        sleep 5
         clear
         exit
         ;;
