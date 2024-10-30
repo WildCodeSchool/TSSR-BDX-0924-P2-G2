@@ -58,7 +58,7 @@ read -p "Votre choix : " target
 if [ $target -gt 3 ]; then
     echo "[WARNING] Vous devez choisir l'une des options demandés."
     echo "Le script va donc redémarrer dans 5 secondes."
-    sleep 5
+    sleep 2
     clear
     bash ./mainMenu.sh
 else
@@ -75,7 +75,7 @@ else
             if [ $typeUser -gt 3 ]; then
                 echo "[WARNING] Vous devez choisir l'une des options demandés."
                 echo "Le script va donc redémarrer dans 5 secondes."
-                sleep 5
+                sleep 2
                 clear
                 bash ./mainMenu.sh
             else
@@ -92,7 +92,7 @@ else
                             if [ $actionUser -gt 4 ]; then
                                 echo "[WARNING] Vous devez choisir l'une des options demandés."
                                 echo "Le script va donc redémarrer dans 5 secondes."
-                                sleep 5
+                                sleep 2
                                 clear
                                 bash ./mainMenu.sh
                             else
@@ -126,7 +126,7 @@ else
                             if [ $informationUser -gt 3 ]; then
                                 echo "[WARNING] Vous devez choisir l'une des options demandés."
                                 echo "Le script va donc redémarrer dans 5 secondes."
-                                sleep 5
+                                sleep 2
                                 clear
                                 bash ./mainMenu.sh
                             else
@@ -139,7 +139,7 @@ else
                                         ;;
                                     3)
                                         echo "Vous avez choisi de revenir au Start Menu."
-                                        sleep 5
+                                        sleep 2
                                         clear
                                         bash ./mainMenu.sh
                                         ;;
@@ -148,7 +148,7 @@ else
                         ;;
                     3)
                         echo "Vous avez choisi de revenir au Start Menu."
-                        sleep 5
+                        sleep 2
                         clear
                         bash ./mainMenu.sh
                         ;;
@@ -168,7 +168,7 @@ else
             if [ $typeComputer -gt 3 ]; then
                 echo "[WARNING] Vous devez choisir l'une des options demandés."
                 echo "Le script va donc redémarrer dans 5 secondes."
-                sleep 5
+                sleep 2
                 clear
                 bash ../mainMenu.sh
             else
@@ -183,7 +183,7 @@ else
                         if [ $actionComputer -gt 3 ]; then
                             echo "[WARNING] Vous devez choisir l'une des options demandés."
                             echo "Le script va donc redémarrer dans 5 secondes."
-                            sleep 5
+                            sleep 2
                             clear
                             bash ./mainMenu.sh
                         else
@@ -196,7 +196,7 @@ else
                                     ;;
                                 3)
                                     echo "Vous avez choisi de revenir au Start Menu."
-                                    sleep 5
+                                    sleep 2
                                     clear
                                     bash ./mainMenu.sh
                                     ;;
@@ -213,7 +213,7 @@ else
                         if [ $informationComputer -gt 3 ]; then
                             echo "[WARNING] Vous devez choisir l'une des options demandés."
                             echo "Le script va donc redémarrer dans 5 secondes."
-                            sleep 5
+                            sleep 2
                             clear
                             bash ./mainMenu.sh
                         else
@@ -226,7 +226,7 @@ else
                                     ;;
                                 3)
                                     echo "Vous avez choisi de revenir au Start Menu."
-                                    sleep 5
+                                    sleep 2
                                     clear
                                     bash ./mainMenu.sh
                                     ;;
@@ -235,7 +235,7 @@ else
                         ;;
                     3)
                         echo "Vous avez choisi de revenir au Start Menu."
-                        sleep 5
+                        sleep 2
                         clear
                         bash ./mainMenu.sh
                         ;;
@@ -245,7 +245,7 @@ else
 
         3)
             echo "Vous avez choisi de sortir du menu."
-            sleep 5
+            sleep 2
             clear
             exit
             ;;
