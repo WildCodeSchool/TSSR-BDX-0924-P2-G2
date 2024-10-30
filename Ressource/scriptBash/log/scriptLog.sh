@@ -1,3 +1,9 @@
 #!/bin/bash
 
-# Script pour la journalisation
+###### Variable #######
+
+
+###### Fonctions ######
+
+
+###### Script #########
