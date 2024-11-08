@@ -1,7 +1,7 @@
 # Documentation utilisateur
 
 <details>
-<summary>## Utilisation sur Linux</summary>
+<summary><h1> Utilisation sur Linux<h1></summary>
 <br>
 
 ### Utilisation de base : comment utiliser les fonctionnalités clés
@@ -13,7 +13,7 @@
 </details>
 
 <details>
-<summary>## Utilisation sur Windows</summary>
+<summary><h1>Utilisation sur Windows<h1></summary>
 <br>
 
 ### Utilisation de base : comment utiliser les fonctionnalités clés
