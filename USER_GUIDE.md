@@ -1,26 +1,26 @@
 # Documentation utilisateur
 
 <details>
-<summary>Utilisation sur Linux</summary>
+<summary>## Utilisation sur Linux</summary>
 <br>
 
-## Utilisation de base : comment utiliser les fonctionnalités clés
+### Utilisation de base : comment utiliser les fonctionnalités clés
 
-## Utilisation avancée : comment utiliser au mieux les options
+### Utilisation avancée : comment utiliser au mieux les options
 
-## FAQ : solutions aux problèmes connus et communs liés à l'utilisation
+### FAQ : solutions aux problèmes connus et communs liés à l'utilisation
 
 </details>
 
 <details>
-<summary>Utilisation sur Windows</summary>
+<summary>## Utilisation sur Windows</summary>
 <br>
 
-## Utilisation de base : comment utiliser les fonctionnalités clés
+### Utilisation de base : comment utiliser les fonctionnalités clés
 
-## Utilisation avancée : comment utiliser au mieux les options
+### Utilisation avancée : comment utiliser au mieux les options
 
-## FAQ : solutions aux problèmes connus et communs liés à l'utilisation
+### FAQ : solutions aux problèmes connus et communs liés à l'utilisation
 
 </details>
 
