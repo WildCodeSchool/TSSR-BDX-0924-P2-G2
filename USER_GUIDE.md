@@ -7,19 +7,19 @@
   + <details>
     <summary><h4>Utilisation de base<h4></summary>
     <br>
-    <b><u>Comment utiliser les fonctionnalités clés :</b></u>
+    <b><u>Comment utiliser les fonctionnalités clés :</u></b>
     </details>    
     
   + <details>
     <summary><h4>Utilisation avancée<h4></summary>
     <br>
-    <b><u>Comment utiliser au mieux les options :</b></u>
+    <b><u>Comment utiliser au mieux les options :</u></b>
     </details>
 
   + <details>
     <summary><h4>F.A.Q.<h4></summary>
     <br>
-    <b><u>Solutions aux problèmes connus et communs liés à l'utilisation :</b></u>
+    <b><u>Solutions aux problèmes connus et communs liés à l'utilisation :</u></b>
     </details>
 
 </details>
@@ -31,19 +31,19 @@
   + <details>
     <summary><h4>Utilisation de base<h4></summary>
     <br>
-    <b><u>Comment utiliser les fonctionnalités clés :</b></u>
+    <b><u>Comment utiliser les fonctionnalités clés :</u></b>
     </details>    
     
   + <details>
     <summary><h4>Utilisation avancée<h4></summary>
     <br>
-    <b><u>Comment utiliser au mieux les options :</b></u>
+    <b><u>Comment utiliser au mieux les options :</u></b>
     </details>
 
   + <details>
     <summary><h4>F.A.Q.<h4></summary>
     <br>
-    <b><u>Solutions aux problèmes connus et communs liés à l'utilisation :</b></u>
+    <b><u>Solutions aux problèmes connus et communs liés à l'utilisation :</u></b>
     </details>
 
 
