@@ -7,7 +7,7 @@
   + <details>
     <summary><h4>Utilisation de base<h4></summary>
     <br>
-    <b><u>Comment utiliser les fonctionnalités clés :</u></b>
+    <u>Comment utiliser les fonctionnalités clés :</u>
     </details>    
     
   + <details>
