@@ -29,7 +29,7 @@ NU nano 7.2                                                                     
       
       </details>
 
-
+</details>
         
 <details>
 <summary><h2>Installation sous Windows<h2></summary>
@@ -96,5 +96,5 @@ NU nano 7.2                                                                     
 
       </details>
 
-
+</details>
 
