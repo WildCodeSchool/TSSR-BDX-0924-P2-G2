@@ -47,9 +47,10 @@ L’objectif secondaire est optionnel et amènera en cas de réalisation validé
 <details>
 <summary><h2>Membres du groupe de projet (rôles par sprint)<h2></summary>
 
-Pour ce projet, les membres du groupe sont Sybill Gribonval, Julien Normand et Anthony Vidal.  
+Pour ce projet, les membres du groupe sont Sybill Gribonval, Julien Normand et Anthony Vidal.
 
-<h3>Rôles par sprint :<h3>
+
+**Rôles par sprint :**
 
 **Sprint 1**
 - Scrum Master : Sybill Gribonval 
