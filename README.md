@@ -1,7 +1,6 @@
 # Documentation Générale
 
 <details>
-
 <summary><h2>Présentation du projet & Objectifs<h2></summary>
 
 #### 1) Le projet :
@@ -43,8 +42,9 @@ Le projet contient 2 objectifs, 1 objectif principal et 1 objectif secondaire.
 - Depuis un serveur, cibler une machine cliente avec un type d’OS différent
 
 L’objectif secondaire est optionnel et amènera en cas de réalisation validée, à une meilleure évaluation.
+</details>
 
-
+<details>
 <summary><h2>Membres du groupe de projet (rôles par sprint)<h2></summary>
 
 Pour ce projet, les membres du groupe sont Sybill Gribonval, Julien Normand et Anthony Vidal.
@@ -70,7 +70,9 @@ Pour ce projet, les membres du groupe sont Sybill Gribonval, Julien Normand et A
 - Scrum Master : Anthony Vidal
 - Product Owner : Sybill Gribonval
 - TSSR : Julien Normand
+</details>
 
+<details>
 <summary><h2>Choix techniques (OS, Version, ...)<h2></summary>
 
 #### 2 clients (au minimum) sont mis en place :
@@ -100,11 +102,16 @@ Nom : **SRVLX01**
 Compte : **root**
 Mot de passe : **Azerty1***
 Adresse IP fixe : **172.16.10.10/24**
+</details>
 
+<details>
 <summary><h2>Difficultés rencontrées : problèmes techniques rencontrés<h2></summary>
+</details>
 
+<details>
 <summary><h2>Solutions trouvées : solutions et alternatives trouvées<h2></summary>
+</details>
 
+<details>
 <summary><h2>Améliorations possible : suggestion d'améliorations futures<h2></summary>
-
 </details>
