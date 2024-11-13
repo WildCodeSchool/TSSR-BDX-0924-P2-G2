@@ -52,7 +52,7 @@ NU nano 7.2                                                                     
     **1- Le PC Windows Serveur**  
     **2- Le PC Windows Client**  
 
-    #### Configuration et installations des deux interfaces Windows  
+    **Configuration et installations des deux interfaces Windows**    
   
     Toutes les opératieons décrites ci-après se trouvent dans le script co_ssh.ps1 etr sont donc automatisées.
     Pour commencer, il faut ouvrir Powershell en tant qu'administrateur
