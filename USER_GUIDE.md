@@ -48,14 +48,17 @@
   + <details>
     <summary><h4>Bien utiliser le script<h4></summary>
     <br>
+
     Tout d'abord, il faut vous connecter sur l'ordinateur **SRVLX01** :
       * Identifiant : _wilder_
       * Mot de passe : _Azerty1*_
     <br>
+
     Une fois connecté, vérifier d'être bien sur le dossier **/home/wilder**. Dans ce dossier, vous trouverez :
       * Le dossier **Documents**, où s'enregistrera les différentes demandes d'informations.
       * Le dossier **TheScriptingProject**, où se trouve le script.
     <br>
+
     Pour appeler le script, il faudra taper la commande suivante (tout en restant dans le dossier **/home/wilder**) :
     ```bash
     ./TheScriptingProject/mainMenu.sh
@@ -63,8 +66,10 @@
     Vous arriverez sur ce menu :
     ![appelScript&menu](https://github.com/WildCodeSchool/TSSR-BDX-0924-P2-G2/blob/doc/Images/appelScript%26menu.png)
     <br>
-    Chacun de vos choix, vous amènes à des sous-menus. A la finalité, vous pourrez soit faire des actions soit faire des demandes d'informations. <br>
+
+    Chacun de vos choix, vous amènes à des sous-menus. A la finalité, vous pourrez soit faire des actions soit faire des demandes d'informations.<br>
     Ce script, vous permettra d'agir sur la machine cliente **CLILIN01**.
+
     </details>
     
   + <details>
