@@ -329,32 +329,32 @@ Installer Open ssh sur le serveur avec la commande :
 ``` powershell
 Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 ```
-
-
 Après ça il faut démarrer le service ssh :
-
-    Start-Service sshd
-
+``` powershell
+Start-Service sshd
+```
 Ensuite, on le configure pour qu'il démarre automatiquement :
-
-    Set-Service -Name -StartupType "Automatic"
-
+``` powershell
+Set-Service -Name -StartupType "Automatic"
+```
 Le démarrage du service SSH a généré le fichier de configuration C:\ProgramData\ssh\sshd_config .
 Nous allons le modifier avec le bloc notes Windows :
-
-    notepad C:\ProgramData\ssh\sshd_config
-
-Une fois le fichier ouvert, nous allons modifier la configuration du serveur SSH en autorisant la connexion par mot de passe. Pour ce faire il faut retirer le caractère # situé devant cette ligne :
-
+``` powershell
+notepad C:\ProgramData\ssh\sshd_config
+```
+Une fois le fichier ouvert, nous allons modifier la configuration du serveur SSH en autorisant la connexion par mot de passe. Pour se faire, il faut retirer le caractère # situé devant cette ligne : <br>
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P2-G2/tree/main/Images/notepad1.png" width=600></P>
+<br>
 
 Nous devons ajouter la prise en charge de PowerShell en l'intégrant en tant que sous-système, sinon il n'y a que quelques commandes qui vont fonctionner (non PowerShell). Vous devez ajouter cette nouvelle ligne à la suite de ces deux lignes :
-
-    Subsystem powershell c:/progra~1/powershell/7/pwsh.exe -sshs -NoLogo
-
+``` powershell
+Subsystem powershell c:/progra~1/powershell/7/pwsh.exe -sshs -NoLogo
+```
+Ce qui donnera :
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P2-G2/tree/main/Images/notepad2.png" width=600></P>
 
-
 </details>
+
+<HR>
 
 </details>
