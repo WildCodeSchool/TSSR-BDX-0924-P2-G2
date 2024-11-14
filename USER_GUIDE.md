@@ -91,19 +91,19 @@
 
     ***Questions : Où sont enregistrés les informations que j'aurais demandé ?*** <br>
     *Réponse* <br>
-    Les informations que vous aurez demandé lors du scripting, seront enregistrés dans le dossier **/home/wilder/Documents/** sous la forme suivante : info_<Cible>_<Date>.txt; avec :
-      * <Cible> : Le nom de l'utilisateur ou de l'ordinateur cible.
-      * <Date> : Date du recueil des informations au format *yyyymmdd*
+    Les informations que vous aurez demandé lors du scripting, seront enregistrés dans le dossier **/home/wilder/Documents/** sous la forme suivante : info_*Cible*_*Date*.txt; avec :
+      * *Cible* : Le nom de l'utilisateur ou de l'ordinateur cible.
+      * *Date* : Date du recueil des informations au format *yyyymmdd*
     <br>
 
     ***Questions : Vous avez parlé de journalisation, où pourrais-je retrouver ces informations ?*** <br>
     *Réponse* <br>
     Les informations de journalisation seront enregistrés dans le dossier **/var/log/** et dans le fichier **log_evt.log**. <br>
-    Les enregistrements seront sous la forme suivante : <Date>-<Heure>-<Utilisateur>-<Evenement>, avec :
-      * <Date> : Date de l'évènement au format *yyymmdd*
-      * <Heure> : Heure de l'évènement au format *hhmmss*
-      * <Utilisateur> : Nom de l'utilisateur courant utilisant la machine **SRVLX01** exécutant le script
-      * <Evenemnts> : Action effectué lors de l'utilisation du script :
+    Les enregistrements seront sous la forme suivante : *Date*-*Heure*-*Utilisateur*-*Evenement*, avec :
+      * *Date* : Date de l'évènement au format *yyymmdd*
+      * *Heure* : Heure de l'évènement au format *hhmmss*
+      * *Utilisateur* : Nom de l'utilisateur courant utilisant la machine **SRVLX01** exécutant le script
+      * *Evenemnts* : Action effectué lors de l'utilisation du script :
         * Les différents choix dans le menu et les sous-menu;
         * Lors des actions ou des demandes d'informations, chaque étape sera détaillé.
 
