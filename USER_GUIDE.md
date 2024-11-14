@@ -63,8 +63,12 @@
       * Le dossier **TheScriptingProject**, où se trouve le script.
     <br>
 
-    Pour appeler le script, il faudra taper la commande suivante (tout en restant dans le dossier **/home/wilder**) :
+    Pour appeler le script, il faudra taper les commandes suivantes (tout en restant dans le dossier **/home/wilder**) :
     ```bash
+    su root
+    ```
+    Vous avez besoin d'être sous l'utilisateur **Root** pour pouvoir accéder au dossier **/var/log** où s'enregistrera tout au long du script, les différents évènements de vos choix.<br>
+    ``` bash
     ./TheScriptingProject/mainMenu.sh
     ```
     Vous arriverez sur ce menu : <br>
@@ -75,13 +79,22 @@
       * Soit faire des actions
       * Soit faire des demandes d'informations.
 
-    Ce script, vous permettra d'agir sur la machine cliente **CLILIN01**.
+    Ce script, vous permettra d'agir sur la machine cliente **CLILIN01**, grâce à une connexion SSH.
 
     </details>
     
   + <details>
     <summary><h4>Les différentes options<h4></summary>
     <br>
+
+    Ce script permet d'agir sur une machine distante via une connexion SSH. Vous aurez donc besoin de connaitre :
+      * Le nom d'utilisateur sur qui vous souhaitez vous connecter
+      * L'adresse IP de la machine cible
+      * Le mot de passe de l'utilisateur
+
+    A plusieurs reprises dans le script, une connexion SSH devra s'établir, cela se verra sous cette forme :
+    `bash wilder@172.16.10.30's password `
+
 
     </details>
 
@@ -103,7 +116,7 @@
       * *Date* : Date de l'évènement au format *yyymmdd*
       * *Heure* : Heure de l'évènement au format *hhmmss*
       * *Utilisateur* : Nom de l'utilisateur courant utilisant la machine **SRVLX01** exécutant le script
-      * *Evenemnts* : Action effectué lors de l'utilisation du script :
+      * *Evenements* : Action effectué lors de l'utilisation du script :
         * Les différents choix dans le menu et les sous-menu;
         * Lors des actions ou des demandes d'informations, chaque étape sera détaillé.
 
