@@ -93,7 +93,7 @@
       * Le mot de passe de l'utilisateur
 
     A plusieurs reprises dans le script, une connexion SSH devra s'établir, cela se verra sous cette forme :
-    `bash wilder@172.16.10.30's password `
+    ``wilder@172.16.10.30's password ``
 
 
     </details>
