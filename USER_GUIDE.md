@@ -5,9 +5,14 @@
 <br>
 <summary><h3> Les fonctions du script</h3></summary>
 
-Nous vous proposons un menu permettant de faire différentes demandes (actions ou informations) sur deux cibles possibles :
-  * Cible : Utilisateur
-  * Cible : Ordinateur
+  + <details>
+    <summary><h4> Les différentes cibles </h4></summary>
+
+    Nous vous proposons un menu permettant de faire différentes demandes (actions ou informations) sur deux cibles possibles :
+      * Cible : Utilisateur
+      * Cible : Ordinateur
+
+    </details>
 
   + <details>
     <summary><h4> Les différentes actions </h4></summary>
@@ -21,7 +26,6 @@ Nous vous proposons un menu permettant de faire différentes demandes (actions o
       * Redémarrer l'ordinateur
       * Eteindre l'ordinateur
     </details>
-
 
   + <details>
     <summary><h4> Les différentes informations</h4></summary>
