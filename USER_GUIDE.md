@@ -49,7 +49,16 @@
     <summary><h4>Bien utiliser le script<h4></summary>
     <br>
 
+    Tout d'abord, il faut vous connecter sur l'ordinateur SRVLX01 :
+      * Identifiant : wilder
+      * Mot de passe : Azerty1*
 
+    Une fois connecté, vérifier d'être bien sur le dossier **/home/wilder**. Dans ce dossier, vous trouverez :
+      * Le dossier Documents, où s'enregistrera les différentes demandes d'informations.
+      * Le dossier TheScriptingProject, où se trouve le script.
+
+    Pour appeler le script, il faudra taper la commande suivante (tout en restant dans le dossier **/home/wilder**) :
+    bash ./TheScriptingProject/mainMenu.sh
 
     </details>
     
