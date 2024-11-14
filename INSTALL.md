@@ -246,7 +246,7 @@ Maintenant qu'il est installé, il faut vérifier son statut. Pour cela, faite l
 ``` bash
 systemctl status ssh
 ```
-<br>
+Ce qui vous donnera :
 ``` bash
 wilder@CLILIN01:~$ systemctl status ssh
 ● ssh.service - OpenBSD Secure Shell server
