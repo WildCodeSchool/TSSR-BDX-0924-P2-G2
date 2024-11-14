@@ -85,4 +85,36 @@ Cela devrait vous donner :
   valid_lft forever preferred_lft forever
 ```
 
+#### Configuration SSH
+La machine serveur envoie des demandes de connexion SSH, il faudra donc installer le paquet OpenSSH-Client . Pour cela, faite la commande suivante :
+``` bash
+sudo apt-get install openssh-client -y
+```
+Maintenant qu'il est installé, vous pouvez vérifier la connexion avec une machine cible. Pour cela, faite la commande suivante :
+``` bash
+ssh wilder@172.16.10.30
+```
+Il vous sera demandé un mot de passe, qui correspond à celui de l'utilisateur de la machine distante à laquelle vous vous connecter. Une fois la connexion établie, vous aurez le contrôle à distance de la machine cliente sur votre machine serveur,comme suit :
+``` bash
+wilder@SRVLX01:~$ ssh wilder@172.16.10.30
+wilder@172.16.10.30's password:
+Welcome to Ubuntu 24.04.1 LTS (GNU/Linux 6.8.0-48-generic x86_64)
+
+* Documentation:  https://help.ubuntu.com
+* Management:     https://landscape.canonical.com
+* Support:        https://ubuntu.com/pro
+
+La maintenance de sécurité étendue pour Applications n'est pas activée.
+
+16 mises à jour peuvent être appliquées immédiatement.
+Pour afficher ces mises à jour supplémentaires, exécuter : apt list --upgradable
+
+Activez ESM Apps pour recevoir des futures mises à jour de sécurité supplémentaires.
+Visitez https://ubuntu.com/esm ou executez : sudo pro status
+
+Last login: Thu Nov 14 14:41:13 2024 from 172.16.10.10
+wilder@CLILIN01:~$
+```
+Votre connexion est maintenant bien établie.
+
 </details>
