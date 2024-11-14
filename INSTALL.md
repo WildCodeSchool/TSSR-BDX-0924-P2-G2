@@ -37,7 +37,7 @@
         * CPU : 2 cœur
         * RAM : Minimum - 512 Mo / Maximum - 2048 Mo
         * Stockage : HDD de 32 Go
-    </details>
+     </details>
 
     + <details>
       <summary><h5>Configuration réseaux</h5></summary>
