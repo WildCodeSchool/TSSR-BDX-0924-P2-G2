@@ -5,7 +5,7 @@
 <br>
 
   + <details>
-    <summary><h3> Les différentes cibles </h3></summary>
+    <summary><h4> Les différentes cibles </h4></summary>
 
     Nous vous proposons un menu permettant de faire différentes demandes (actions ou informations) sur deux cibles possibles :
       * Cible : Utilisateur
@@ -14,7 +14,7 @@
     </details>
 
   + <details>
-    <summary><h3> Les différentes actions </h3></summary>
+    <summary><h4> Les différentes actions </h4></summary>
 
     Concernant la cible utilisateur, vous pouvez demander :
       * Créer un utilisateur
@@ -27,7 +27,7 @@
     </details>
 
   + <details>
-    <summary><h3> Les différentes informations</h3></summary>
+    <summary><h4> Les différentes informations</h4></summary>
 
     Concernant la cible utilisateur, vous pouvez demander :
       * Les dates de connexion d'un utilisateur
@@ -46,13 +46,15 @@
 <br>
 
   + <details>
-    <summary><h4>Utilisation de base<h4></summary>
+    <summary><h4>Bien utiliser le script<h4></summary>
     <br>
+
+
 
     </details>
     
   + <details>
-    <summary><h4>Utilisation avancée<h4></summary>
+    <summary><h4>Les différentes options<h4></summary>
     <br>
 
     </details>
