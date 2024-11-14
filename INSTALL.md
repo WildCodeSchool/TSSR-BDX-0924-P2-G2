@@ -39,7 +39,10 @@ Cette machine aura les spécificités suivantes :
 
 </details>
 
-#### Configuration réseaux
+<details>
+<summary><h4> Configuration réseaux </h4></summary>
+<br>
+
 Cette machine aura les spécificités suivantes :
   * Carte réseau 1 : Connectés au NET pour recevoir les mises à jours systèmes.
     * Laisser le DHCP du proxmox lui donner son adresse IP.
@@ -98,7 +101,12 @@ Cela devrait vous donner :
   valid_lft forever preferred_lft forever
 ```
 
-#### Configuration SSH
+</details>
+
+<details>
+<summary><h4> Configuration SSH </h4></summary>
+<br>
+
 La machine serveur envoie des demandes de connexion SSH, il faudra donc installer le paquet OpenSSH-Client . Pour cela, faite la commande suivante :
 ``` bash
 sudo apt-get install openssh-client -y
@@ -129,6 +137,8 @@ Last login: Thu Nov 14 14:41:13 2024 from 172.16.10.10
 wilder@CLILIN01:~$
 ```
 Votre connexion est maintenant bien établie.
+
+</details>
 
 </details>
 
