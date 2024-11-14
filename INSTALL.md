@@ -41,6 +41,8 @@ Cette machine aura les spécificités suivantes :
 
 </details>
 
+<HR>
+
 <details>
 <summary><h4> Configuration réseaux </h4></summary>
 <br>
@@ -105,6 +107,8 @@ Cela devrait vous donner :
 
 </details>
 
+<HR>
+
 <details>
 <summary><h4> Configuration SSH </h4></summary>
 <br>
@@ -147,7 +151,136 @@ Votre connexion est maintenant bien établie.
 <HR>
 
 <details>
-<summary><h3> Configuration de la machine CLILIN01 </h4></summary>
+<summary><h3> Configuration de la machine CLILIN01 </h3></summary>
+<br>
+
+<details>
+<summary><h4> Configuration systèmes </h4></summary>
+<br>
+
+Cette machine aura les spécificités suivantes :
+  * CPU : 2 cœur
+  * RAM : Minimum - 512 Mo / Maximum - 2048 Mo
+  * Stockage : HDD de 32 Go
+
+</details>
+
+<HR>
+
+<details>
+<summary><h4> Configuration réseaux </h4></summary>
+<br>
+
+Cette machine aura les spécificités suivantes :
+  * Carte réseau 1 : Connectés au NET pour recevoir les mises à jours systèmes. (optionnel)
+    * Laisser le DHCP du proxmox lui donner son adresse IP.
+  * Carte réseau 2 : Connectés au réseau interne pour pouvoir communiquer avec la machine serveur.
+
+Nous allons seulement configuré la carte réseau n°2. Pour cela, il faut aller modifier le fichier **/etc/netplan/nomdufichier.yaml** avec la commande suivante :
+``` bash
+sudo nano /etc/netplan/nomdufichier.yaml
+```
+A l'intérieur, il faudra le modifier comme suit :
+``` bash
+# This file is generated from information provided by the datasource.  Changes
+# to it will not persist across an instance reboot.  To disable cloud-init's
+# network configuration capabilities, write a file
+# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
+# network: {config: disabled}
+network:
+  ethernets:
+      ens18:
+          dhcp4: true
+      ens19:
+          dhcp4: no
+          addresses:
+          - 172.16.10.30/24
+  version: 2
+```
+Puis l'enregistrer et faire la commande suivante pour appliquer la nouvelle configuration :
+``` bash
+sudo netplan apply
+```
+Pour vérifier si cela a fonctionner, faites la commande :
+``` bash
+ip a
+```
+Cela devrait vous donner :
+``` bash
+wilder@CLILIN01:~$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+  link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+  inet 127.0.0.1/8 scope host lo
+  valid_lft forever preferred_lft forever
+  inet6 ::1/128 scope host noprefixroute
+  valid_lft forever preferred_lft forever
+2: ens18: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+  link/ether bc:24:11:c1:7b:2b brd ff:ff:ff:ff:ff:ff
+  altname enp0s18
+  inet 10.3.0.14/24 brd 10.3.0.255 scope global dynamic noprefixroute ens18
+  valid_lft 6996sec preferred_lft 6996sec
+  inet6 fe80::be24:11ff:fec1:7b2b/64 scope link
+  valid_lft forever preferred_lft forever
+3: ens19: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+  link/ether bc:24:11:d9:2f:e3 brd ff:ff:ff:ff:ff:ff
+  altname enp0s19
+  inet 172.16.10.30/24 brd 172.16.10.255 scope global noprefixroute ens19
+  valid_lft forever preferred_lft forever
+  inet6 fe80::be24:11ff:fed9:2fe3/64 scope link
+  valid_lft forever preferred_lft forever
+```
+
+</details>
+
+<HR>
+
+<details>
+<summary><h4> Configuration SSH </h4></summary>
+<br>
+
+Comme c'est la machine cliente qui recevra les demandes de connexion SSH, c'est ici que sera installé OpenSSH-Server. Pour cela, faite la commande suivante :
+``` bash
+sudo apt-get install openssh-server -y
+```
+Maintenant qu'il est installé, il faut vérifier son statut. Pour cela, faite la commande ci-dessous :
+``` bash
+systemctl status ssh
+```
+<br>
+``` bash
+wilder@CLILIN01:~$ systemctl status ssh
+● ssh.service - OpenBSD Secure Shell server
+    Loaded: loaded (/usr/lib/systemd/system/ssh.service; disabled; preset: enabled)
+    Active: active (running) since Thu 2024-11-14 12:21:46 CET; 2h 11min ago
+TriggeredBy: ● ssh.socket
+    Docs: man:sshd(8)
+            man:sshd_config(5)
+    Process: 3038 ExecStartPre=/usr/sbin/sshd -t (code=exited, status=0/SUCCESS)
+Main PID: 3040 (sshd)
+    Tasks: 1 (limit: 9446)
+    Memory: 3.3M (peak: 4.2M)
+        CPU: 78ms
+    CGroup: /system.slice/ssh.service
+            └─3040 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+
+nov. 14 12:22:05 CLILIN01 sshd[3041]: Accepted password for wilder from 172.16.10.10 port 52874 ssh2
+nov. 14 12:22:05 CLILIN01 sshd[3041]: pam_unix(sshd:session): session opened for user wilder(uid=1000) by wilder(uid=0)
+nov. 14 12:29:28 CLILIN01 sshd[3172]: Accepted password for wilder from 172.16.10.10 port 46424 ssh2
+nov. 14 12:29:28 CLILIN01 sshd[3172]: pam_unix(sshd:session): session opened for user wilder(uid=1000) by wilder(uid=0)
+nov. 14 12:29:28 CLILIN01 sshd[3172]: pam_unix(sshd:session): session closed for user wilder
+nov. 14 12:29:35 CLILIN01 sshd[3220]: Accepted password for wilder from 172.16.10.10 port 41340 ssh2
+nov. 14 12:29:35 CLILIN01 sshd[3220]: pam_unix(sshd:session): session opened for user wilder(uid=1000) by wilder(uid=0)
+nov. 14 12:29:35 CLILIN01 sshd[3220]: pam_unix(sshd:session): session closed for user wilder
+nov. 14 14:32:47 CLILIN01 sshd[3667]: Accepted password for wilder from 10.20.0.3 port 36430 ssh2
+nov. 14 14:32:47 CLILIN01 sshd[3667]: pam_unix(sshd:session): session opened for user wilder(uid=1000) by wilder(uid=0)
+```
+S'il est active comme ci-dessus, votre server SSH est installé. Si ce n'est pas le cas, faite la commande suivante :
+``` bash
+systemctl restart ssh
+```
+Puis refaite la commande pour status, et c'est bon votre server SSH est opérationnel !
+
+</details>
 
 </details>
 
