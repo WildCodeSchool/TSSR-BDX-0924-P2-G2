@@ -1,12 +1,11 @@
 # Documentation utilisateur
 
 <details>
-<summary><h2> Généralités </h2></summary>
+<summary><h2> Généralités : Les fonctions du script </h2></summary>
 <br>
-<summary><h3> Les fonctions du script</h3></summary>
 
   + <details>
-    <summary><h4> Les différentes cibles </h4></summary>
+    <summary><h3> Les différentes cibles </h3></summary>
 
     Nous vous proposons un menu permettant de faire différentes demandes (actions ou informations) sur deux cibles possibles :
       * Cible : Utilisateur
@@ -15,7 +14,7 @@
     </details>
 
   + <details>
-    <summary><h4> Les différentes actions </h4></summary>
+    <summary><h3> Les différentes actions </h3></summary>
 
     Concernant la cible utilisateur, vous pouvez demander :
       * Créer un utilisateur
@@ -28,7 +27,7 @@
     </details>
 
   + <details>
-    <summary><h4> Les différentes informations</h4></summary>
+    <summary><h3> Les différentes informations</h3></summary>
 
     Concernant la cible utilisateur, vous pouvez demander :
       * Les dates de connexion d'un utilisateur
