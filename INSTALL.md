@@ -33,6 +33,8 @@ Cette machine aura les spécificités suivantes :
   * Carte réseau 2 : Connectés au réseau interne pour pouvoir communiquer avec la machine cliente.
 
 Nous allons seulement configuré la carte réseau N°2. Pour cela, il faut aller modifier le fichier **/etc/netplan/nomdufichier.yaml** avec la commande suivante :
-`bash sudo nano /etc/netplan/nomdufichier.yaml`
+```bash
+sudo nano /etc/netplan/nomdufichier.yaml
+```
 
 </details>
