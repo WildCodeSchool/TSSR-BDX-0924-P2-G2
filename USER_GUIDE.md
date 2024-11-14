@@ -54,7 +54,11 @@
       * Mot de passe : _Azerty1*_
     <br>
 
-    Une fois connecté, vérifier d'être bien sur le dossier **/home/wilder**. Dans ce dossier, vous trouverez :
+    Une fois connecté, vérifier d'être bien sur le dossier **/home/wilder**, avec la commande :
+    ``` bash
+    pwd
+    ```
+    Dans ce dossier, vous trouverez :
       * Le dossier **Documents**, où s'enregistrera les différentes demandes d'informations.
       * Le dossier **TheScriptingProject**, où se trouve le script.
     <br>
@@ -63,11 +67,14 @@
     ```bash
     ./TheScriptingProject/mainMenu.sh
     ```
-    Vous arriverez sur ce menu :
+    Vous arriverez sur ce menu : <br>
     ![appelScript&menu](https://github.com/WildCodeSchool/TSSR-BDX-0924-P2-G2/blob/doc/Images/appelScript%26menu.png)
     <br>
 
-    Chacun de vos choix, vous amènes à des sous-menus. A la finalité, vous pourrez soit faire des actions soit faire des demandes d'informations.<br>
+    Chacun de vos choix, vous amènes à des sous-menus où à la fin, vous pourrez :
+      * Soit faire des actions
+      * Soit faire des demandes d'informations.
+
     Ce script, vous permettra d'agir sur la machine cliente **CLILIN01**.
 
     </details>
@@ -81,7 +88,25 @@
   + <details>
     <summary><h4>F.A.Q.<h4></summary>
     <br>
-    <b>Solutions aux problèmes connus et communs liés à l'utilisation :</b>
+
+    ***Questions : Où sont enregistrés les informations que j'aurais demandé ?*** <br>
+    *Réponse* <br>
+    Les informations que vous aurez demandé lors du scripting, seront enregistrés dans le dossier **/home/wilder/Documents/** sous la forme suivante : info_<Cible>_<Date>.txt; avec :
+      * <Cible> : Le nom de l'utilisateur ou de l'ordinateur cible.
+      * <Date> : Date du recueil des informations au format *yyyymmdd*
+    <br>
+
+    ***Questions : Vous avez parlé de journalisation, où pourrais-je retrouver ces informations ?*** <br>
+    *Réponse* <br>
+    Les informations de journalisation seront enregistrés dans le dossier **/var/log/** et dans le fichier **log_evt.log**. <br>
+    Les enregistrements seront sous la forme suivante : <Date>-<Heure>-<Utilisateur>-<Evenement>, avec :
+      * <Date> : Date de l'évènement au format *yyymmdd*
+      * <Heure> : Heure de l'évènement au format *hhmmss*
+      * <Utilisateur> : Nom de l'utilisateur courant utilisant la machine **SRVLX01** exécutant le script
+      * <Evenemnts> : Action effectué lors de l'utilisation du script :
+        * Les différents choix dans le menu et les sous-menu;
+        * Lors des actions ou des demandes d'informations, chaque étape sera détaillé.
+
     </details>
 
 </details>
