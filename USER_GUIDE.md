@@ -58,8 +58,9 @@
       * Le dossier TheScriptingProject, où se trouve le script.
 
     Pour appeler le script, il faudra taper la commande suivante (tout en restant dans le dossier **/home/wilder**) :
-    bash ./TheScriptingProject/mainMenu.sh
-
+    ```bash
+    ./TheScriptingProject/mainMenu.sh
+    ```
     </details>
     
   + <details>
