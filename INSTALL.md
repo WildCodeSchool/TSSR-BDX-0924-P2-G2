@@ -34,8 +34,7 @@
         * Minimum : 512 Mo
         * Maximum : 2048 Mo
       * Stockage : Disque dur HDD de 32 Go
-
-  </details>
+   </details>
 
   + <details>
     <summary><h5> Configuration réseaux </h5></summary>
@@ -98,8 +97,7 @@
       inet6 fe80::be24:11ff:fe23:d294/64 scope link
       valid_lft forever preferred_lft forever
     ```
-
-  </details>
+   </details>
 
 
   + <details>
@@ -137,7 +135,7 @@
     ```
     Votre connexion est maintenant bien établie.
 
-  </details>
+   </details>
 
 </details>
 
