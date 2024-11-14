@@ -4,7 +4,7 @@
     <summary><h2>Installation sous Linux<h2></summary>
     <br>
 
-  + <details>
+<details>
     <summary><h4>Prérequis techniques</h4></summary>
 
     **Serveur Debian 12 (en CLI sans GUI) :**
@@ -23,24 +23,13 @@
 
     Notre projet s'est fait sur des machines virtuelles avec l'hyperviseur Proxmox.<br>
     Chacune de ces machines a leurs propres configuration qui sera détaillé dans les chapitres suivants.
-    </details>
+</details>
 
   + <details>
     <summary><h4>Etapes d'installation et de configuration de la machine SRVLX01.</h4></summary>
     <br>
 
-      ##### Configuration systèmes
-      <br>
-
-      Cette machine aura les spécificités suivantes :
-        * CPU : 2 cœur
-        * RAM : Minimum - 512 Mo / Maximum - 2048 Mo
-        * Stockage : HDD de 32 Go
-
-      <summary><h5>Configuration réseaux</h5></summary>
-      <br>
-
-
+    ##### Configuration systèmes
 
   </details>
 
