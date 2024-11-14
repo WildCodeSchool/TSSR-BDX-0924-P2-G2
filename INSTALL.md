@@ -1,6 +1,5 @@
 # Documents Administrateurs
 
-<details>
 <summary><h2> Installation sous Linux </h2></summary>
 <br>
 
@@ -284,11 +283,8 @@ Puis refaite la commande pour status, et c'est bon votre server SSH est opérati
 
 </details>
 
-</details>
-
 <HR>
 
-<details>
 <summary><h2> Installation sous Windows </h2></summary>
 <br>
 
@@ -356,5 +352,3 @@ Ce qui donnera :
 </details>
 
 <HR>
-
-</details>
