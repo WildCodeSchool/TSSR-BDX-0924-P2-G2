@@ -27,7 +27,7 @@
 <summary><h4> Configuration de la machine SRVLX01 </h4></summary>
 <br>
 
-+ <details>
+<details>
 <summary><h5> Configuration système </h5></summary>
 <br>
 
@@ -42,7 +42,7 @@ Cette machine aura les spécificités suivantes :
 
 <HR>
 
-+ <details>
+<details>
 <summary><h5> Configuration réseaux </h5></summary>
 <br>
 
@@ -109,7 +109,7 @@ Cela devrait vous donner :
 <HR>
 
 <details>
-+ <summary><h5> Configuration SSH </h5></summary>
+<summary><h5> Configuration SSH </h5></summary>
 <br>
 
 La machine serveur envoie des demandes de connexion SSH, il faudra donc installer le paquet OpenSSH-Client . Pour cela, faite la commande suivante :
@@ -153,7 +153,7 @@ Votre connexion est maintenant bien établie.
 <summary><h4> Configuration de la machine CLILIN01 </h4></summary>
 <br>
 
-+ <details>
+<details>
 <summary><h5> Configuration systèmes </h5></summary>
 <br>
 
@@ -166,7 +166,7 @@ Cette machine aura les spécificités suivantes :
 
 <HR>
 
-+ <details>
+<details>
 <summary><h5> Configuration réseaux </h5></summary>
 <br>
 
@@ -233,7 +233,7 @@ wilder@CLILIN01:~$ ip a
 
 <HR>
 
-+ <details>
+<details>
 <summary><h5> Configuration SSH </h5></summary>
 <br>
 
