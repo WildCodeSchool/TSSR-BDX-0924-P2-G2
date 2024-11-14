@@ -7,19 +7,18 @@
   + <details>
     <summary><h4>Prérequis techniques</h4></summary>
 
-    Serveur Debian 12 (en CLI sans GUI) :
+    **Serveur Debian 12 (en CLI sans GUI) :**
       * Nom : **SRVLX01**
       * Compte : **root**
       * Mot de passe : **Azerty1**
       * Adresse IP fixe : **172.16.10.10/24**
     <br>
 
-    Client Ubuntu 22.04/24.04 LTS :
+    **Client Ubuntu 22.04/24.04 LTS :**
       * Nom : **SRVLX01**
       * Compte : **root**
       * Mot de passe : **Azerty1**
       * Adresse IP fixe : **172.16.10.10/24**
-
     </details>
 
 </details>
