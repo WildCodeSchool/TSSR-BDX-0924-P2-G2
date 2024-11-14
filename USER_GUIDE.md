@@ -1,6 +1,5 @@
 # Documentation utilisateur
 
-<details>
 <summary><h2> Généralités : Les fonctions du script </h2></summary>
 <br>
 
@@ -46,11 +45,8 @@ Concernant la cible ordinateur, vous pouvez demander :
   * L'uptime de l'ordinateur
 </details>
 
-</details>
-
 <HR>
 
-<details>
 <summary><h2> Utilisation sur Linux<h2></summary>
 <br>
 
@@ -134,11 +130,8 @@ Les enregistrements seront sous la forme suivante : *Date*-*Heure*-*Utilisateur*
 
 </details>
 
-</details>
-
 <HR>
 
-<details>
 <summary><h2>Utilisation sur Windows<h2></summary>
 <br>
 
@@ -164,6 +157,4 @@ Les enregistrements seront sous la forme suivante : *Date*-*Heure*-*Utilisateur*
 <b>Solutions aux problèmes connus et communs liés à l'utilisation :</b>
 </details>
 
-
-</details>
-
+<HR>
