@@ -27,18 +27,18 @@
 <summary><h4> Configuration de la machine SRVLX01 </h4></summary>
 <br>
 
-<details>
-<summary><h5> Configuration système </h5></summary>
-<br>
+  + <details>
+  <summary><h5> Configuration système </h5></summary>
+  <br>
 
-Cette machine aura les spécificités suivantes :
-  * CPU : 2 cœurs
-  * RAM :
-    * Minimum : 512 Mo
-    * Maximum : 2048 Mo
-  * Stockage : Disque dur HDD de 32 Go
+  Cette machine aura les spécificités suivantes :
+    * CPU : 2 cœurs
+    * RAM :
+      * Minimum : 512 Mo
+      * Maximum : 2048 Mo
+    * Stockage : Disque dur HDD de 32 Go
 
-</details>
+  </details>
 
 <HR>
 
