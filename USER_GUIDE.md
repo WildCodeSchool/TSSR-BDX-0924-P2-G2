@@ -90,11 +90,10 @@
     Ce script permet d'agir sur une machine distante via une connexion SSH. Vous aurez donc besoin de connaitre :
       * Le nom d'utilisateur sur qui vous souhaitez vous connecter
       * L'adresse IP de la machine cible
-      * Le mot de passe de l'utilisateur
+      * Le mot de passe de l'utilisateur correspondant
 
-    A plusieurs reprises dans le script, une connexion SSH devra s'établir, cela se verra sous cette forme :
+    A plusieurs reprises dans le script, une connexion SSH devra s'établir, cela se verra sous cette forme :<br>
     ``wilder@172.16.10.30's password ``
-
 
     </details>
 
