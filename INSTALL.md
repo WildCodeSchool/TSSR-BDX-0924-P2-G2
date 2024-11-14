@@ -4,7 +4,10 @@
 <summary><h2> Installation sous Linux </h2></summary>
 <br>
 
-### Prérequis techniques
+<details>
+<summary><h3> Prérequis techniques </h3></summary>
+<br>
+
 **Serveur Debian 12 (en CLI sans GUI) :**
   * Nom : **SRVLX01**
   * Compte : **root**
@@ -16,6 +19,8 @@
   * Compte : **wilder**
   * Mot de passe : **Azerty1***
   * Adresse IPv4 fixe : **172.16.10.30/24**
+
+</details>
 
 ### Configuration de la machine SRVLX01
 #### Configuration système
