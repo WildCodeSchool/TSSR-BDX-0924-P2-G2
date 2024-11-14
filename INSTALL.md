@@ -22,14 +22,22 @@
 
 </details>
 
-### Configuration de la machine SRVLX01
-#### Configuration système
+<details>
+<summary><h3> Configuration de la machine SRVLX01 </h3></summary>
+<br>
+
+<details>
+<summary><h4> Configuration système </h4></summary>
+<br>
+
 Cette machine aura les spécificités suivantes :
   * CPU : 2 cœurs
   * RAM :
     * Minimum : 512 Mo
     * Maximum : 2048 Mo
   * Stockage : Disque dur HDD de 32 Go
+
+</details>
 
 #### Configuration réseaux
 Cette machine aura les spécificités suivantes :
@@ -121,5 +129,7 @@ Last login: Thu Nov 14 14:41:13 2024 from 172.16.10.10
 wilder@CLILIN01:~$
 ```
 Votre connexion est maintenant bien établie.
+
+</details>
 
 </details>
