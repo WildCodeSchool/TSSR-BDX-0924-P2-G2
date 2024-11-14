@@ -4,22 +4,18 @@
     <summary><h2>Installation sous Linux<h2></summary>
     <br>
 
-    + <details>
-    <summary><h4>Prérequis techniques<h4></summary>
-    <br>
-
-    **Serveur Debian 12 (en CLI sans GUI):**
-    Nom : **SRVLX01**
-    Compte : **root**
-    Mot de passe : **Azerty1***
-    Adresse IP fixe : **172.16.10.10/24**
-
-    **Client Ubuntu 22.04/24.04 LTS :**
-    Nom : **CLILIN01**
-    Compte utilisateur : **wilder** (dans le groupe sudo)
-    Mot de passe : **Azerty1***
-    Adresse IP fixe : **172.16.10.30/24**
-
+  + <details>
+    <summary><h4>Prérequis techniques</h4></summary>
+    <b>Serveur Debian 12 (en CLI sans GUI) :</b>
+      * Nom : **SRVLX01**
+      * Compte : **root**
+      * Mot de passe : **Azerty1**
+      * Adresse IP fixe : **172.16.10.10/24**
+    <b>Client Ubuntu 22.04/24.04 LTS :</b>
+      * Nom : **CLILIN01**
+      * Compte : **wilder**
+      * Mot de passe : **Azerty1**
+      * Adresse IP fixe : **172.16.10.30/24**
     </details>
 
 </details>
