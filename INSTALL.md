@@ -21,15 +21,13 @@
 
 </details>
 
-<HR>
-
 <details>
 <summary><h4> Configuration de la machine SRVLX01 </h4></summary>
 <br>
 
-<details>
-<summary><h5> Configuration système </h5></summary>
-<br>
+  + <details>
+    <summary><h5> Configuration système </h5></summary>
+    <br>
 
 Cette machine aura les spécificités suivantes :
   * CPU : 2 cœurs
@@ -38,13 +36,11 @@ Cette machine aura les spécificités suivantes :
     * Maximum : 2048 Mo
   * Stockage : Disque dur HDD de 32 Go
 
-</details>
+  </details>
 
-<HR>
-
-<details>
-<summary><h5> Configuration réseaux </h5></summary>
-<br>
+  + <details>
+    <summary><h5> Configuration réseaux </h5></summary>
+    <br>
 
 Cette machine aura les spécificités suivantes :
   * Carte réseau 1 : Connectés au NET pour recevoir les mises à jours systèmes.
@@ -104,13 +100,12 @@ Cela devrait vous donner :
   valid_lft forever preferred_lft forever
 ```
 
-</details>
+  </details>
 
-<HR>
 
-<details>
-<summary><h5> Configuration SSH </h5></summary>
-<br>
+  + <details>
+    <summary><h5> Configuration SSH </h5></summary>
+    <br>
 
 La machine serveur envoie des demandes de connexion SSH, il faudra donc installer le paquet OpenSSH-Client . Pour cela, faite la commande suivante :
 ``` bash
@@ -143,32 +138,30 @@ wilder@CLILIN01:~$
 ```
 Votre connexion est maintenant bien établie.
 
-</details>
+  </details>
 
 </details>
 
-<HR>
 
 <details>
 <summary><h4> Configuration de la machine CLILIN01 </h4></summary>
 <br>
 
-<details>
-<summary><h5> Configuration systèmes </h5></summary>
-<br>
+  + <details>
+    <summary><h5> Configuration systèmes </h5></summary>
+    <br>
 
 Cette machine aura les spécificités suivantes :
   * CPU : 2 cœur
   * RAM : Minimum - 512 Mo / Maximum - 2048 Mo
   * Stockage : HDD de 32 Go
 
-</details>
+  </details>
 
-<HR>
 
-<details>
-<summary><h5> Configuration réseaux </h5></summary>
-<br>
+  + <details>
+    <summary><h5> Configuration réseaux </h5></summary>
+    <br>
 
 Cette machine aura les spécificités suivantes :
   * Carte réseau 1 : Connectés au NET pour recevoir les mises à jours systèmes. (optionnel)
@@ -229,13 +222,12 @@ wilder@CLILIN01:~$ ip a
   valid_lft forever preferred_lft forever
 ```
 
-</details>
+  </details>
 
-<HR>
 
-<details>
-<summary><h5> Configuration SSH </h5></summary>
-<br>
+  + <details>
+    <summary><h5> Configuration SSH </h5></summary>
+    <br>
 
 Comme c'est la machine cliente qui recevra les demandes de connexion SSH, c'est ici que sera installé OpenSSH-Server. Pour cela, faite la commande suivante :
 ``` bash
@@ -279,7 +271,7 @@ systemctl restart ssh
 ```
 Puis refaite la commande pour status, et c'est bon votre server SSH est opérationnel !
 
-</details>
+  </details>
 
 </details>
 
@@ -306,7 +298,6 @@ Puis refaite la commande pour status, et c'est bon votre server SSH est opérati
 
 </details>
 
-<HR>
 
 <details>
 <summary><h4> Etapes d'installation et de configuration </h4></summary>
@@ -351,4 +342,3 @@ Ce qui donnera :
 
 </details>
 
-<HR>
