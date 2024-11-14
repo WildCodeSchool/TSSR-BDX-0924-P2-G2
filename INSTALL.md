@@ -19,7 +19,26 @@
       * Compte : **root**
       * Mot de passe : **Azerty1**
       * Adresse IP fixe : **172.16.10.10/24**
+    <br>
+
+    Notre projet s'est fait sur des machines virtuelles avec l'hyperviseur Proxmox.<br>
+    Chacune de ces machines a leurs propres configuration qui sera détaillé dans les chapitres suivants.
     </details>
+
+  + <details>
+    <summary><h4>Etapes d'installation et de configuration de la machine SRVLX01.</h4></summary>
+    <br>
+
+      + <details>
+      <summary><h4>Configuration système.</h4></summary>
+      <br>
+      Cette machine aura les spécificités suivantes :
+        * CPU : 2 cœur
+        * RAM : Minimum - 512 Mo / Maximum - 2048 Mo
+        * Stockage : HDD de 32 Go
+      </details>
+
+  </details>
 
 </details>
 
