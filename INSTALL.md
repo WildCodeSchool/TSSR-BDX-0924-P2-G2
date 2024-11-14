@@ -29,12 +29,14 @@
     <summary><h4>Etapes d'installation et de configuration de la machine SRVLX01.</h4></summary>
     <br>
 
-    <summary><h5>Configuration systèmes</h5></summary>
-    <br>
-    Cette machine aura les spécificités suivantes :
-      * CPU : 2 cœur
-      * RAM : Minimum - 512 Mo / Maximum - 2048 Mo
-      * Stockage : HDD de 32 Go
+    + <details>
+      <summary><h5>Configuration systèmes</h5></summary>
+      <br>
+      Cette machine aura les spécificités suivantes :
+        * CPU : 2 cœur
+        * RAM : Minimum - 512 Mo / Maximum - 2048 Mo
+        * Stockage : HDD de 32 Go
+    </details>
 
     <summary><h5>Configuration réseaux</h5></summary>
     <br>
