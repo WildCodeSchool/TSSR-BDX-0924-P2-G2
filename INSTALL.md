@@ -4,7 +4,7 @@
 <br>
 
 <details>
-<summary><h3> Prérequis techniques </h3></summary>
+<summary><h4> Prérequis techniques </h4></summary>
 <br>
 
 **Serveur Debian 12 (en CLI sans GUI) :**
@@ -24,11 +24,11 @@
 <HR>
 
 <details>
-<summary><h3> Configuration de la machine SRVLX01 </h3></summary>
+<summary><h4> Configuration de la machine SRVLX01 </h4></summary>
 <br>
 
 <details>
-<summary><h4> Configuration système </h4></summary>
+<summary><h5> Configuration système </h5></summary>
 <br>
 
 Cette machine aura les spécificités suivantes :
@@ -43,7 +43,7 @@ Cette machine aura les spécificités suivantes :
 <HR>
 
 <details>
-<summary><h4> Configuration réseaux </h4></summary>
+<summary><h5> Configuration réseaux </h5></summary>
 <br>
 
 Cette machine aura les spécificités suivantes :
@@ -109,7 +109,7 @@ Cela devrait vous donner :
 <HR>
 
 <details>
-<summary><h4> Configuration SSH </h4></summary>
+<summary><h5> Configuration SSH </h5></summary>
 <br>
 
 La machine serveur envoie des demandes de connexion SSH, il faudra donc installer le paquet OpenSSH-Client . Pour cela, faite la commande suivante :
@@ -150,11 +150,11 @@ Votre connexion est maintenant bien établie.
 <HR>
 
 <details>
-<summary><h3> Configuration de la machine CLILIN01 </h3></summary>
+<summary><h4> Configuration de la machine CLILIN01 </h4></summary>
 <br>
 
 <details>
-<summary><h4> Configuration systèmes </h4></summary>
+<summary><h5> Configuration systèmes </h5></summary>
 <br>
 
 Cette machine aura les spécificités suivantes :
@@ -167,7 +167,7 @@ Cette machine aura les spécificités suivantes :
 <HR>
 
 <details>
-<summary><h4> Configuration réseaux </h4></summary>
+<summary><h5> Configuration réseaux </h5></summary>
 <br>
 
 Cette machine aura les spécificités suivantes :
@@ -234,7 +234,7 @@ wilder@CLILIN01:~$ ip a
 <HR>
 
 <details>
-<summary><h4> Configuration SSH </h4></summary>
+<summary><h5> Configuration SSH </h5></summary>
 <br>
 
 Comme c'est la machine cliente qui recevra les demandes de connexion SSH, c'est ici que sera installé OpenSSH-Server. Pour cela, faite la commande suivante :
@@ -289,7 +289,7 @@ Puis refaite la commande pour status, et c'est bon votre server SSH est opérati
 <br>
 
 <details>
-<summary><h3> Prérequis techniques </h3></summary>
+<summary><h4> Prérequis techniques </h4></summary>
 <br>
 
 **Serveur Windows Server 2022 (avec GUI):**
@@ -309,7 +309,7 @@ Puis refaite la commande pour status, et c'est bon votre server SSH est opérati
 <HR>
 
 <details>
-<summary><h3> Etapes d'installation et de configuration </h3></summary>
+<summary><h4> Etapes d'installation et de configuration </h4></summary>
 
 #### Instruction étape par étape :
 
