@@ -9,26 +9,31 @@ Nous vous proposons un menu permettant de faire différentes demandes (actions o
   * Cible : Utilisateur
   * Cible : Ordinateur
 
-<summary><h4> Les différentes actions </h4></summary>
+  + <details>
+    <summary><h4> Les différentes actions </h4></summary>
 
-Concernant la cible utilisateur, vous pouvez demander :
-  * Créer un utilisateur
-  * Supprimer un utilisateur
-  * Modifier le mot de passe d'un utilisateur
+    Concernant la cible utilisateur, vous pouvez demander :
+      * Créer un utilisateur
+      * Supprimer un utilisateur
+      * Modifier le mot de passe d'un utilisateur
 
-Concernant la cible ordinateur, vous pouvez demander :
-  * Redémarrer l'ordinateur
-  * Eteindre l'ordinateur
+    Concernant la cible ordinateur, vous pouvez demander :
+      * Redémarrer l'ordinateur
+      * Eteindre l'ordinateur
+    </details>
 
-<summary><h4> Les différentes informations</h4></summary>
 
-Concernant la cible utilisateur, vous pouvez demander :
-  * Les dates de connexion d'un utilisateur
-  * Si l'utilisateur existe
+  + <details>
+    <summary><h4> Les différentes informations</h4></summary>
 
-Concernant la cible ordinateur, vous pouvez demander :
-  * Le type de système d'exploitation de l'ordinateur
-  * L'uptime de l'ordinateur
+    Concernant la cible utilisateur, vous pouvez demander :
+      * Les dates de connexion d'un utilisateur
+      * Si l'utilisateur existe
+
+    Concernant la cible ordinateur, vous pouvez demander :
+      * Le type de système d'exploitation de l'ordinateur
+      * L'uptime de l'ordinateur
+    </details>
 
 </details>
 
