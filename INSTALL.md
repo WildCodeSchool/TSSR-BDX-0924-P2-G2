@@ -1,6 +1,6 @@
 <h1>Document Administrateur</h1>
 
-<details>
++ <details>
     <summary><h2>Installation sous Linux<h2></summary>
     <br>
         + <details>
