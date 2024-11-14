@@ -22,6 +22,8 @@
 
 </details>
 
+<HR>
+
 <details>
 <summary><h3> Configuration de la machine SRVLX01 </h3></summary>
 <br>
@@ -142,4 +144,14 @@ Votre connexion est maintenant bien établie.
 
 </details>
 
+<HR>
+
+<details>
+<summary><h3> Configuration de la machine CLILIN01 </h4></summary>
+
 </details>
+
+</details>
+
+<HR>
+
