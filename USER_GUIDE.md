@@ -125,8 +125,8 @@ Les enregistrements seront sous la forme suivante : *Date*-*Heure*-*Utilisateur*
   * *Heure* : Heure de l'évènement au format *hhmmss*
   * *Utilisateur* : Nom de l'utilisateur courant utilisant la machine **SRVLX01** exécutant le script
   * *Evenements* : Action effectué lors de l'utilisation du script :
-  * Les différents choix dans le menu et les sous-menu;
-  * Lors des actions ou des demandes d'informations, chaque étape sera détaillé.
+    * Les différents choix dans le menu et les sous-menu;
+    * Lors des actions ou des demandes d'informations, chaque étape sera détaillé.
 
 </details>
 

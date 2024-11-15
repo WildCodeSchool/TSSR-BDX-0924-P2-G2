@@ -107,12 +107,45 @@ Adresse IP fixe : **172.16.10.10/24**
 
 <details>
 <summary><h2>Difficultés rencontrées : problèmes techniques rencontrés<h2></summary>
+
+#### Problèmes rencontrés sous Linux
+Voici une liste des problèmes rencontrés où certains ont put être corrigés (voir §Solutions trouvées):
+  1. Appliquer le script depuis SRVLX01 et qu'il agisse sur CLILIN01. Nous avions une première solution, mais cela ne répondait pas aux attentes du client. Une solution a été trouvée.
+  2. Problèmes de connexion SSH sur l'utilisateur `root` de la machine distante. Une solution a été trouvée.
+  3. La première ligne pour le journal de log `<Date>-<Heure>-<Utilisateur>-********StartScript********`. A chaque fois que l'utilisateur revient sur le menu de départ, sans pour autant sortir du script, cette ligne se remet à chaque fois. Alors qu'elle doit se mettre qu'au lancement du script. A ce jour, aucune solution n'a été trouvée, cependant une piste d'amélioration a été décelé.
+  4. Lancer le script tout en ayant accès au dossier **/var/log** pour implémenter le journal de log. Une solution a été trouvée.
+
+#### Problèmes rencontrés sous Windows
+
 </details>
 
 <details>
 <summary><h2>Solutions trouvées : solutions et alternatives trouvées<h2></summary>
+
+#### Solutions trouvés sous Linux
+Suite au problème rencontré plus haut, voici les solutions que nous avons repérées :
+  1. La première solution était d'envoyer le script sur CLILIN01 avec la commande `scp -r /cheminsource wilder@172.16.10.30:~/` néanmoins cela ne répondait pas aux attentes du client. La solution apportée a été de mettre la commande `ssh wilder@172.16.10.30 <nom de la commande>` dans les différentes fonctions du script pour appliquer les commandes à distantes. Et pour pouvoir rester dans le menu/script, nous avons utiliser la boucle `while`.
+  2. Depuis SRVLX01, nous n'arrivions pas à nous commander en `root` sur CLILIN01, or pour certaines commande, il était nécessaire d'être `root` pour pouvoir l'appliquer. La solution a été de modifier le fichier **/etc/ssh/sshd_config** et de modifier la ligne `PermitRootLogin no` en `PermitRootLogin yes`.
+  3. Si le script était lancé en tant qu'utilisateur `wilder` sur SRVLX01, il nous était impossoble de modifier le fichier log_evt.log car nous n'avions pas les droits d'accès suffisant pour accéder au dossier **/var/log**. Il a suffit de se mettre sur l'utilisateur `root` pour pouvoir régler ce souci.
+
+
+#### Solutions trouvés sous Windows
+
 </details>
 
 <details>
 <summary><h2>Améliorations possible : suggestion d'améliorations futures<h2></summary>
+
+#### Améliorations possible sous Linux
+Suite à l'avancement du projet, plusieurs axes d'amélioration se sont démarqués :
+  * A chaque connexion SSH, un mot de passe est demandé. Pour palier à cela, il faudrait :
+    * Soit stocké le mot de passe dans une variable,
+    * Soit enregistré les clé SSH de connexion.
+  * Pour le problème cité plus haut concernant la première ligne du journal de log, pour palier à ce problème il faudrait utiliser une variable booléenne.
+  * Améliorer la sécurité du script pour que seul l'administrateur puisse utiliser le script et pas un simple utilisateur.
+
+#### Améliorations possible sous Windows
+
+</details>
+
 </details>
