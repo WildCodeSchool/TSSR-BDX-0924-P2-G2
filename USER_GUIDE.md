@@ -13,8 +13,6 @@ Nous vous proposons un menu permettant de faire différentes demandes (actions o
 
 </details>
 
-<HR>
-
 <details>
 <summary><h4> Les différentes actions </h4></summary>
 <br>
@@ -29,8 +27,6 @@ Concernant la cible ordinateur, vous pouvez demander :
   * Eteindre l'ordinateur
 
 </details>
-
-<HR>
 
 <details>
 <summary><h4> Les différentes informations</h4></summary>
@@ -88,7 +84,6 @@ Ce script, vous permettra d'agir sur la machine cliente **CLILIN01**, grâce à 
 
 </details>
 
-<HR>
 
 <details>
 <summary><h4>Les différentes options<h4></summary>
@@ -103,8 +98,6 @@ A plusieurs reprises dans le script, une connexion SSH devra s'établir, cela se
 ``wilder@172.16.10.30's password ``
 
 </details>
-
-<HR>
 
 <details>
 <summary><h4>F.A.Q.<h4></summary>
@@ -141,7 +134,6 @@ Les enregistrements seront sous la forme suivante : *Date*-*Heure*-*Utilisateur*
 <b>Comment utiliser les fonctionnalités clés :</b>
 </details>
 
-<HR>
 
 <details>
 <summary><h4>Utilisation avancée<h4></summary>
@@ -149,7 +141,6 @@ Les enregistrements seront sous la forme suivante : *Date*-*Heure*-*Utilisateur*
 <b>Comment utiliser au mieux les options :</b>
 </details>
 
-<HR>
 
 <details>
 <summary><h4>F.A.Q.<h4></summary>
