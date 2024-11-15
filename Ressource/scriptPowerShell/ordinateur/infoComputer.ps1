@@ -1,1 +1,0 @@
-# infoComputer powershell
